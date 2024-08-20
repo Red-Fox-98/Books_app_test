@@ -2,7 +2,7 @@ import { FC } from "react";
 import { BookInformation } from "./lib/types";
 
 const Card: FC<{ book: BookInformation }> = ({ book }) => {
-  return (
+    return (
     <div>
       <h3>{book.name}</h3>
       <p>
