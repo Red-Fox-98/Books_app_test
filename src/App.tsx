@@ -3,7 +3,7 @@ import {Book, BookInformation, Review, ReviewInformation, User} from "./lib/type
 import {getBooks, getUsers, getReviews} from "./lib/api";
 import {useEffect, useState, FC} from "react";
 import Card from "./Card";
-import {getReviewInformation, getUser} from "./helpers";
+import {getReviewInformation, getUser} from "./lib/helpers";
 
 // Техническое задание:
 // Доработать приложение App, чтобы в отрисованном списке
